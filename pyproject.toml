@@ -6,7 +6,10 @@ build-backend = "hatchling.build"
 name = "sagittal_average"
 version = "0.1.0"
 
+[project.scripts]
+sagittal_average_run = "sagittal_average.command:process"
+
 [tool.hatch.build.targets.wheel]
 packages = [
-  "./sagittal_average",
+  "./sagittal_average",  # 这里一定要按照toml与包的相对路径调整，指向包的位置
 ]
