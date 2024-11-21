@@ -51,6 +51,11 @@ packages = [
   "./sagittal_average",  # 这里一定要按照toml与包的相对路径调整，指向包的位置
 ]
 
+doc = [
+    "sphinx",
+]
+all = ["sagittal_average[dev,doc]"]
+
 [project.urls]
 Documentation = "https://JessieLu20.github.io/sagittal_average/"
 Repository = "https://github.com/JessieLu20/sagittal_average.git"
