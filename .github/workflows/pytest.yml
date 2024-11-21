@@ -24,6 +24,6 @@ jobs:
         run: |
           pip install ".[dev]"
           pip install pytest
-          pip install pytest-cov # 注意安装相关依赖包
+          pip install pytest-cov
       - name: Run tests
         run: pytest --cov=./
