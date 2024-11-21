@@ -25,4 +25,4 @@ jobs:
           pip install ".[dev]"
           pip install pytest
       - name: Run tests
-        run: pytest --cov=./
+        run: pytest --cov=./tests/
