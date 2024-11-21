@@ -8,7 +8,7 @@ description = "Calculate the averages through a sagittal plane easily."
 version = "0.1.0"
 
 readme = { file = "README.md", content-type = "text/markdown" }
-license = { file = "LICENSE.md" }
+license = { file = "license.md" }
 license-expression = 'BSD-3-clause'
 authors = [
   {name = "Charlene Bultoc", email = "c.bultoc@neurolab.ac.uk"},
