@@ -15,6 +15,7 @@ documentation for details.
    :maxdepth: 10
    :caption: Contents:
 
+   How to... <how_to/index>
    API <api/modules>
    .. modules
 
